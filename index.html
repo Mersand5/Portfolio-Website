@@ -5,74 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link href="style.css" type="text/css" rel="stylesheet">
-    
+    <link href="/css/home.css" type="text/css" rel="stylesheet">
+     
 </head>
 <body>
-    <header> 
-        <h1>Lenny Dimet</h1>
-        <img id="bitmoji" src="/img/bitmoji.png">
+    <header>
+        <h1 id="top">Lenny Dimet</h1>
     </header>
     <nav>
         <ul>
             <li><a href="index.html">Home Page</a></li>
-            <li><a href="#about">About Me</a></li>
+            <li><a href="#aboutMe">About Me</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="contact.html">Contact Me</a></li>
         </ul>
     </nav>
     <main>
-        <h2>About me</h2>
-        <p>I am an aspiring web developer with great interest and passion for learning code and new strategies for web development. I am a highly motivated and hardworking individual, who recently completed a degree in psychology and criminology at Gloucestershire University. I am seeking a  job that will help me develop skills and gain the experience needed to succeed in a  job in web development. I have strong analytical and problem-solving skills that have benefited me while completing my degree and a strong desire to succeed.</p>
-        <h2 id="projects">Projects</h2>
-        <div id="project container">
-            <!--Add here the party one-->
-            <div id="project-1">
-                <img src="/img/partyclub.png" alt="Party club website">
-                <h3>The Party Club</h3>
-                <p>A site made for people who enjoy meeting up to party</p>
-                <p>Technology used: VS code, HTML, CSS, GIT, GIHUB</p>
+        <img id="bitmoji" src="/img/bitmoji2.png" alt="a bitmoji of myself">
+        <article id="aboutMe">
+            <h2>About me</h2>
+            <p>I am an aspiring web developer with great interest and passion for learning code and new strategies for web development.
+               I am a highly motivated and hardworking individual,
+                who recently completed a degree in psychology and criminology at Gloucestershire University. 
+                I am seeking a  job that will help me develop skills and gain the experience needed to succeed in a  job in web development. 
+                I have strong analytical and problem-solving skills that have benefited me while completing my degree and a strong desire to succeed.</p>
+        </article>
+    <h2 id="projects">Projects</h2>
+    
+    <div class="project-container">
+        <!--Add here the party one-->
+
+        <div class="project card">
+          <div class="card_inner">
+            <div class="card_face card_face--front">
+              <div class="card_content">
+                <div class="card_header">
+                    <a href="https://github.com/Mersand5/The-Party-Club" target="_blank"><img src="/img/partyclub.png" alt="Party club website"></a>
+                    <h3>The Party Club</h3>
+                </div>
+               
+              </div>
+                
             </div>
-            <!--add the starting one-->
-            <div id="project-2">
-                <img src="/img/redTwin.png" alt="Red Twin productions website">
-                <h3>Red Twin Productions</h3>
-                <p>A proffesional website made for a film production company</p>
-                <p>Technology used: VS code, HTML, CSS, GIT, GIHUB</p>
-            </div>
-            <!--add here the random word one-->
-            <div id="project-3">
-                <img src="/img/random.png" alt="Random horror scope website">
-                <h3>Random horror scope generator</h3>
-                <p>A website made to generate ALS patterns and random horror scope messeages</p>
-                <p>Technology used: VS code, HTML, JavaScript, GIT, GIHUB</p>
-            </div>
+          </div>
+      
         </div>
-        <h2>Skills</h2>
-        <!--list here all the programming languages you have done so far-->
-        <div id="skills container">
-            <img class="logo" src="/img/hmtl-logo.png" alt="html5 logo" >
-            <img class="logo" src="/img/css-logo.png" alt="css logo">
-            <img class="logo" src="/img/javascript-logo.png" alt="JavaScript logo">
-            <img class="logo" src="/img/git-logo.png" alt="git logo">
-            <img class="logo" src="/img/chrome-logo.png" alt="chrome logo">
-            <img class="logo" src="/img/node.js-logo.png" alt="node.js logo">
-            <img class="logo" src="/img/github-logo.png" alt="github logo">
-           
-
-            
-
-
-
+        <!--add the starting one-->
+        <div class="project">
+            <a href="https://github.com/Mersand5/Red-Twin-production-company" target="_blank" ><img src="/img/redTwin.png" alt="Red Twin productions website"></a>
+            <h3>Red Twin Productions</h3>  
         </div>
+        <!--add here the random word one-->
+        <div class="project">
+            <a href="https://github.com/Mersand5/Random-Messeage-Generator" target="_blank"><img src="/img/random.png" alt="Random horror scope website"></a>
+            <h3>Random horror scope generator</h3>
+        </div>
+    </div>
+    <h2 id="skills">Skills</h2>
+    <!--list here all the programming languages you have done so far-->
+    <div id="skills-container">
+        <img class="logo" src="/img/hmtl-logo.png" alt="html5 logo" >
+        <img class="logo" src="/img/css-logo.png" alt="css logo">
+        <img class="logo" src="/img/javascript-logo.png" alt="JavaScript logo">
+        <img class="logo" src="/img/git-logo.png" alt="git logo">
+        <img class="logo" src="/img/chrome-logo.png" alt="chrome logo">
+        <img class="logo" src="/img/node.js-logo.png" alt="node.js logo">
+        <img class="logo" src="/img/github-logo.png" alt="github logo">
+    
+    </div>
+
     </main>
     <footer>
+        <a href="#top">Back to top</a>
         
     </footer>
-
-
-
     <script src="/script.js" type="text/javascript"></script>
 </body>
 </html>

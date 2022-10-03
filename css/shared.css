@@ -1,0 +1,32 @@
+html {
+    background-color: beige;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+h1 {
+    text-align: center;
+    margin-top: 5rem;
+    width: 100%;
+
+}
+#bitmoji{
+    height: 100px;
+
+    width: auto;
+    float: inline-end; 
+}
+nav {
+    float: right;
+    margin-top: -4rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    list-style-type: none;
+    background-color: rgb(229, 185, 132);
+    border-radius: 0.5rem; 
+}
+#linkdin {
+    height: 40px;
+    width: 40px;
+}
