@@ -327,15 +327,201 @@ footer{
 
 }
 @media screen and (max-width: 1100px) {
+    nav {
+        float: center;
+        width: 100%;
+        margin: 0;
+        display: flexbox;
+        margin-left: 40rem;
+    }
+    nav ul {
+        margin-top: -32.5rem;
+        width: 90%;
+        align-content: center;
+        margin-left: -0.5rem;
+    }
     nav ul li {
-        width: 100%
+        width: 100%;
+        margin: 0.5rem;
+        align-content: center;
     }
     header {
         height: 5rem;
-        margin-top: 4rem;
+        margin-top: 25rem;
         width: 100%;
         position: relative;
-        margin-bottom: 4rem;
+        align-content: center;
+        margin-left: 18.7rem;
+    }
+    header h1 {
+        text-align: center;
+        width: 100%;
+        align-content: center;
+    }
+    #bitmoji{
+        height: 600px;
     }
     
+    #aboutMe {
+        margin-top: 8rem; 
+    }
 }
+@media screen and (max-width: 950px) {
+
+    header {
+        margin-left: 17.5rem;
+    }
+
+}
+@media screen and (max-width: 950px) {
+    nav ul {
+        margin-top: -30rem;
+        margin-left: -1.5rem;
+    }
+    header {
+        margin-left: 16.5rem;
+    }
+
+}
+@media screen and (max-width: 920px) {
+    header {
+        margin-left: 19.5rem;
+        margin-bottom: 1rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    #bitmoji{
+        height: 400px;
+    }
+    
+    #aboutMe {
+        margin-top: 1rem; 
+        height: 30%;
+        width: 60%;
+        padding: 0.5rem; 
+    }
+    #aboutMe  h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0rem;
+      
+    }
+    #projects {
+        margin-top: 3rem;
+        font-size: 1.5rem;
+    }
+    #skills {
+        margin-top: 3rem;
+        font-size: 1.5rem;
+    }
+
+}
+@media screen and (max-width: 950px) {
+    nav ul {
+        margin-top: -29rem;
+    }
+    header {
+        margin-left: 17.5rem;
+    }
+
+}
+@media screen and (max-width: 800px) {
+    nav ul {
+        margin-top: -29rem;
+    }
+    header {
+        margin-left: 15rem;
+    }
+
+}
+@media screen and (max-width: 800px) {
+    nav ul {
+        margin-top: -29rem;
+    }
+    header {
+        margin-left: 15rem;
+    }
+
+}
+@media screen and (max-width: 700px) {
+    nav ul {
+        margin-top: -29rem;
+    }
+    header {
+        margin-left: 13rem;
+    }
+    #projects {
+        margin-top: 7rem;
+        margin-bottom: -3rem;
+    }
+
+}
+@media screen and (max-width: 600px) {
+   
+    header {
+        margin-left: 10rem;
+    }
+    #projects {
+        margin-top: 7rem;
+        margin-bottom: -3rem;
+    }
+    #bitmoji{
+        height: 300px;
+    }
+    
+    #aboutMe {
+        margin-top: 0rem; 
+        height: 20%;
+        width: 65%;
+        padding: 0.5rem; 
+        margin-right: 0.5rem;
+    }
+    #aboutMe p {
+        line-height: 1.40rem;
+    }
+
+
+}
+
+
+
+
+    
+
+
+/*
+
+
+
+
+
+#aboutMe {
+    background-color: rgb(244, 198, 174);
+    float: right;
+    border: 0.25rem solid black;
+    margin-right: 4rem;
+    margin-top: 13rem;
+    width: 60%;
+    height: 40%;
+    padding: 1rem;
+    position: relative;
+    display: block;
+}
+
+#aboutMe  h2 {
+    text-align: center;
+    font-size: 2rem;
+    display: inline-flex;
+  
+}
+#aboutMe p {
+    font-size: 1rem;
+    height: 40%;
+    line-height: 2rem;
+}
+#projects {
+    text-align: center;
+    font-size: 2rem;
+}
+
+*/
