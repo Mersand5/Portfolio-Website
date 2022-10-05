@@ -23,8 +23,12 @@ nav {
     margin-right: 1rem;
     padding: 1rem;
     list-style-type: none;
-    background-color: rgb(229, 185, 132);
+    background-color: rgb(244, 198, 174);
     border-radius: 0.5rem; 
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
 }
 #linkdin {
     height: 40px;
